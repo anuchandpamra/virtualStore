@@ -51,7 +51,7 @@ server:
 ---
 
 gsa:
-  app-name: ANG
+  app-name: <<PLACE HOLDER APP NAME>>
 
 ---
 grails:

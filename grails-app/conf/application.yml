@@ -49,10 +49,11 @@ environments:
 server:
   port: 9001
 ---
-
 gsa:
   app-name: <<PLACE HOLDER APP NAME>>
-
+---
+component:
+  component-search: true
 ---
 grails:
     profile: web

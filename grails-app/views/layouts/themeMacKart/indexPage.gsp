@@ -277,7 +277,7 @@
 
                 <!-- Sidebar -->
                 <div class="col-md-3 col-sm-3 hidden-xs">
-
+                    <br/>
                     <h5 class="title">Popular Categories</h5>
                     <!-- Sidebar navigation -->
                     <nav>
@@ -286,7 +286,7 @@
                         </ul>
                     </nav>
                     <br />
-                <br/>
+                    <br/>
                     <!-- Sidebar items (featured items)-->
 
                     <div class="sidebar-items">
@@ -296,8 +296,8 @@
                         <g:pageProperty name="page.strategic_sourcing"/>
                         </div>
                     </div>
-                <br/>
-                <br/>
+                    <br/>
+                    <br/>
                     <div class="sidebar-items">
                         <g:pageProperty name="page.special_ad"/>
                     </div>

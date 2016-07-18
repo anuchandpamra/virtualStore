@@ -53,7 +53,6 @@
                         <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span
                             class="icon-bar"></span> <span class="icon-bar"></span></button>
                     <a href="index.html" class="navbar-brand logo logo-title">
-                            <!-- <asset:image src="gsa-adv-logo.png"/>    -->
                         <span class="logo-icon"><asset:image src="gsa_logo60x60.png"/></span>
                         ${grailsApplication.config.getProperty('gsa.app-name')}
                         <!-- Original Logo will be placed here  -->
@@ -73,7 +72,6 @@
     </div>
     <!-- /.header -->
 
-    <g:pageProperty name="page.nav" />
     <g:layoutBody/>
 
 

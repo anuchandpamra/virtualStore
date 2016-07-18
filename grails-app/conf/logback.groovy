@@ -20,4 +20,7 @@ if (Environment.isDevelopmentMode() && targetDir) {
         }
     }
     logger("StackTrace", ERROR, ['FULL_STACKTRACE'], false)
+    logger 'grails.app.controllers', ALL, ['STDOUT'], false
+    logger 'grails.app.domain', ALL, ['STDOUT'], false
+    logger 'grails.app.services', ALL, ['STDOUT'], false
 }

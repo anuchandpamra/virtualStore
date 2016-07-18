@@ -51,6 +51,8 @@ server:
 ---
 gsa:
   app-name: <<PLACE HOLDER APP NAME>>
+  search:
+    url: http://ec2-54-226-231-103.compute-1.amazonaws.com:8983/solr/ANG-APP/
 ---
 component:
   component-search: true

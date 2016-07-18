@@ -22,6 +22,7 @@
 		<link href="${resource(dir:'macKartTheme/css', file:'style.css')}" rel="stylesheet">
 		<!-- Stylesheet for Color -->
 		<link href="${resource(dir:'macKartTheme/css', file:'red.css')}" rel="stylesheet">
+		<g:layoutHead/>
 		
 		<!-- Favicon -->
 		<link rel="shortcut icon" href=""${resource(dir:'macKartTheme/img/favicon', file:'favicon.png')}">
@@ -210,23 +211,15 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-4">
-						<!-- Logo. Use class "color" to add color to the text. -->
 						<div class="logo">
-							<h1><a href="#"><span class="logo-icon"><asset:image src="gsa_logo_red60x60.png"/></span></a></h1>
-						<h2>${grailsApplication.config.getProperty('gsa.app-name')}</h2>
+							<h1><a href="#"><span class="logo-icon"><asset:image src="gsa_logo_red40x40.png"/></span> ${grailsApplication.config.getProperty('gsa.app-name')}</a></h1>
+							<!--h4>${grailsApplication.config.getProperty('gsa.app-name')}</h4 -->
 						</div>
 					</div>
 					<div class="col-md-4 col-md-offset-4">
 	  
 						<!-- Search form -->
-						<form role="form">
-							<div class="input-group">
-								<input type="email" class="form-control" id="search1" placeholder="Search">
-								<span class="input-group-btn">
-									<button type="submit" class="btn btn-default">Search</button>
-								</span>
-							</div>
-						</form>
+						<g:pageProperty name="page.search_field"/>
 
 						<div class="hlinks">
 							<span>
@@ -314,43 +307,7 @@
 			</div>
 		</div>
 		<!--/ Navigation End -->
-		
-		<!-- Page heading starts -->
-		<div class="page-head">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<h2>Page Title</h2>
-						<h4>something goes here</h4>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!--/ Page Heading ends -->
-
-		<!-- Page content starts -->
-		<div class="content blog">
-		</div>
-		<!--/ Page content ends -->
-
-		<!-- Newsletter starts -->
-		<div class="container newsletter">
-			<div class="row">
-				<div class="col-md-12">
-					<div class="well">
-						<h5><i class="fa fa-envelope"></i> Hot Offers - Don't Miss Anything!!!</h5>
-						<p>Nulla facilisi. Sed justo dui, scelerisque ut consectetur vel, eleifend id erat. Morbi auctor adipiscing tempor. Phasellus condimentum rutrum aliquet.</p>
-						<form class="form-inline" role="form">
-							<div class="form-group">
-								<input type="email" class="form-control" id="search" placeholder="Subscribe">
-							</div>
-							<button type="submit" class="btn btn-default">Subscribe</button>
-						</form>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!--/ Newsletter ends -->
+		<g:layoutBody/>
 
 		<!-- Footer starts -->
 		<footer>
@@ -449,5 +406,6 @@
 		<script src="${resource(dir:'macKartTheme/js', file:'html5shiv.js')}"></script>
 		<!-- Custom JS -->
 		<script src="${resource(dir:'macKartTheme/js', file:'custom.js')}"></script>
+		<g:pageProperty name="page.additional_scripts"/>
 	</body>	
 </html>

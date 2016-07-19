@@ -19,7 +19,9 @@
             <div class="inner">
 
                 <h2><span> ${queryString[0]} </span> <g:if test="${queryString.size() > 1 }"> ${queryString[1]}  </g:if>
-                    <small> 1000+ Items Found</small>
+                    <small> <g:if test="${queryResult != null}">${queryResult?.numFound} Items Found</g:if>
+                     <g:else>0 Items Found</g:else>
+                    </small>
 
 
                 </h2>

@@ -8,13 +8,11 @@
     <div class="item-list job-item">
 
 
-        <div class="col-sm-1  col-xs-2 no-padding photobox">
-            <div class="add-image"><a href=""><img class="thumbnail no-margin"
-                                                   src="${resource(dir:'virtualStoreTheme/images/jobs/company-logos', file:'1.jpg')}"
-                                                   alt="company logo"></a></div>
+        <div class="col-sm-2  col-xs-2 no-padding photobox">
+            <div class="add-image"><a href=""><g:pageProperty name="page.product_image"/></a></div>
         </div>
         <!--/.photobox-->
-        <div class="col-sm-10  col-xs-10  add-desc-box">
+        <div class="col-sm-9  col-xs-10  add-desc-box">
             <div class="add-details jobs-item">
                 <h5 class="company-title "><a href=""><g:pageProperty name="page.product_number"/> </a></h5>
                 <h4 class="job-title"><a href="job-details.html"> <g:pageProperty name="page.product_name"/> </a></h4>
@@ -33,19 +31,19 @@
                         <li>
                             <a href="#" class="save-job">
                                 <span class="fa fa-star-o"></span>
-                                Save Job
+                                Save Product
                             </a>
                         </li>
                         <li class="saved-job hide">
                             <a class="saved-job" href="#">
                                 <span class="fa fa-star"></span>
-                                Saved Job
+                                Saved Products
                             </a>
                         </li>
                         <li>
                             <a class="email-job" href="#">
                                 <i class="fa fa-envelope"></i>
-                                Email Job
+                                Email Product
                             </a>
                         </li>
                     </ul>

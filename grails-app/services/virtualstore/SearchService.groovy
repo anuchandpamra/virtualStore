@@ -37,6 +37,7 @@ class SearchService {
     def searchProducts(String queryString) {
         log.debug("searchProducts called with ${queryString}")
         List<Product> productList = []
+        QueryResult queryResult = new QueryResult()
 
         if (queryString){
             def escapedQueryString = escapeSpecialCharacters(queryString)
@@ -46,6 +47,8 @@ class SearchService {
                 def fullProductResponse = new JsonSlurper().parseText(getURLContent(searchQuery))
 
                 log.debug "JSON response from the search engine"
+
+                queryResult.numFound = fullProductResponse.response.numFound
 
                 JSON.use('deep')
                 fullProductResponse.response.docs.each{
@@ -113,6 +116,8 @@ class SearchService {
                 log.error(e)
             }
         }
-        productList
+
+        queryResult.productList = productList
+        queryResult
     }
 }

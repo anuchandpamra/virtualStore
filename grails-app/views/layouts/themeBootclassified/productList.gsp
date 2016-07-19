@@ -130,9 +130,8 @@
                                 <div class="listing-filter hidden-xs">
                                     <div class="pull-left col-sm-6 col-xs-12">
                                         <div class="breadcrumb-list text-center-xs">
-                                            <a class="jobs-s-tag" rel="nofollow" title="Software Architect">Software
-                                                Engineer </a>
-                                            in <a rel="nofollow" class="jobs-s-tag"> New York</a></div>
+                                            <a class="jobs-s-tag" rel="nofollow" title="Software Architect">${query} </a>
+                                            in <a rel="nofollow" class="jobs-s-tag"> Category</a></div>
                                     </div>
                                     <div class="pull-right col-sm-6 col-xs-12 text-right text-center-xs listing-view-action">
                                         <a class="clear-all-button text-muted">Clear all</a>

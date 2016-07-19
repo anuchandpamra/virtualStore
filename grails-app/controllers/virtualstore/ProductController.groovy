@@ -16,11 +16,12 @@ class ProductController {
         log.debug "In Index for Product Controller with params = ${params}"
 
         log.debug "Calling searchService with ${params.query}"
-        def products = searchService.searchProducts(params.query)
+        QueryResult queryResult = searchService.searchProducts(params.query)
+        def products = queryResult.productList
 
-        log.debug products
+        log.debug queryResult.productList
 
-        respond (products, model: [productCount: products.size(), query: params.query, blah:5])
+        respond (products, model: [productCount: products.size(), query: params.query, queryResult: queryResult])
     }
 
     def show(Product product) {

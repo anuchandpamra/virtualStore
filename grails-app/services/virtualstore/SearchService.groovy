@@ -55,58 +55,58 @@ class SearchService {
                     log.debug it
                     Product product = new Product ()
 
-                    product.ass = it.ass[0]
+                    product.ass = it.ass? it.ass[0]:null
                     product.ba = it.ba
-                    product.bedt = it.bedt[0]
-                    product.bnum = it.bnum[0]
-                    product.bsdt = it.bsdt[0]
-                    product.burl = it.burl[0]
+                    product.bedt = it.bedt? it.bedt[0]:null
+                    product.bnum = it.bnum? it.bnum[0]:null
+                    product.bsdt = it.bsdt? it.bsdt[0]:null
+                    product.burl = it.burl? it.burl[0]:null
                     product.cat = it.cat
-                    product.ct = it.ct[0]
-                    product.dcd = it.dcd[0]
-                    product.dd1 = it.dd1[0]
-                    product.dd2 = it.dd2[0]
-                    product.desc = it.desc[0]
+                    product.ct = it.ct? it.ct[0]:null
+                    product.dcd = it.dcd? it.dcd[0]:null
+                    product.dd1 = it.dd1? it.dd1[0]:null
+                    product.dd2 = it.dd2? it.dd2[0]:null
+                    product.desc = it.desc? it.desc[0]:null
                     product.em = it.em
-                    product.fmpr = it.fmpr[0]
-                    product.fobus = it.fobus[0]
-                    product.fssicnt = it.fssicnt[0]
-                    product.gsin = it.gsin[0]
-                    product.icnt = it.icnt[0]
-                    product.idb = it.idb[0]
+                    product.fmpr = it.fmpr? it.fmpr[0]:null
+                    product.fobus = it.fobus? it.fobus[0]:null
+                    product.fssicnt = it.fssicnt? it.fssicnt[0]:null
+                    product.gsin = it.gsin? it.gsin[0]:null
+                    product.icnt = it.icnt? it.icnt[0]:null
+                    product.idb = it.idb? it.idb[0]:null
                     product.ind = it.ind
-                    product.isa = it.isa[0]
-                    product.itn = it.itn[0]
-                    product.itt = it.itt[0]
+                    product.isa = it.isa? it.isa[0]:null
+                    product.itn = it.itn? it.itn[0]:null
+                    product.itt = it.itt? it.itt[0]:null
                     product.mba = it.mba
-                    product.mbmxdt = it.mbmxdt[0]
-                    product.mct = it.mct[0]
-                    product.mdsc = it.mdsc[0]
-                    product.mdt = it.mdt[0]
+                    product.mbmxdt = it.mbmxdt? it.mbmxdt[0]:null
+                    product.mct = it.mct? it.mct[0]:null
+                    product.mdsc = it.mdsc? it.mdsc[0]:null
+                    product.mdt = it.mdt? it.mdt[0]:null
                     product.mem = it.mem
-                    product.mfr = it.mfr[0]
+                    product.mfr = it.mfr? it.mfr[0]:null
                     product.mind = it.mind
-                    product.mitt = it.mitt[0]
-                    product.mmfr = it.mmfr[0]
-                    product.mmpno = it.mmpno[0]
-                    product.moa = it.moa[0]
-                    product.mpnm = it.mpnm[0]
-                    product.mpno = it.mpno[0]
-                    product.mpt = it.mpt[0]
-                    product.mpu = it.mpu[0]
-                    product.mstype = it.mstype[0]
+                    product.mitt = it.mitt? it.mitt[0]:null
+                    product.mmfr = it.mmfr? it.mmfr[0]:null
+                    product.mmpno = it.mmpno? it.mmpno[0]:null
+                    product.moa = it.moa? it.moa[0]:null
+                    product.mpnm = it.mpnm? it.mpnm[0]:null
+                    product.mpno = it.mpno? it.mpno[0]:null
+                    product.mpt = it.mpt? it.mpt[0]:null
+                    product.mpu = it.mpu? it.mpu[0]:null
+                    product.mstype = it.mstype? it.mstype[0]:null
                     product.name = it.name
-                    product.pr = it.pr[0]
-                    product.pu = it.pu[0]
-                    product.rnk = it.rnk[0]
+                    product.pr = it.pr? it.pr[0]:null
+                    product.pu = it.pu? it.pu[0]:null
+                    product.rnk = it.rnk? it.rnk[0]:null
                     product.sas = it.sas
-                    product.timestamp = it.timestamp[0]
-                    product.unsp = it.unsp[0]
-                    product.uom = it.uom[0]
-                    product.usrc = it.usrc[0]
-                    product.vnd = it.vnd[0]
-                    product.vpno = it.vpno[0]
-                    product.vu = it.vu[0]
+                    product.timestamp = it.timestamp? it.timestamp[0]:null
+                    product.unsp = it.unsp? it.unsp[0]:null
+                    product.uom = it.uom? it.uom[0]:null
+                    product.usrc = it.usrc? it.usrc[0]:null
+                    product.vnd = it.vnd? it.vnd[0]:null
+                    product.vpno = it.vpno? it.vpno[0]:null
+                    product.vu = it.vu? it.vu[0]:null
 
 
                     log.debug product
@@ -114,6 +114,7 @@ class SearchService {
                 }
             } catch (Exception e) {
                 log.error(e)
+                throw e
             }
         }
 

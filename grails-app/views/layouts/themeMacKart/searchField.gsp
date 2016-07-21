@@ -7,8 +7,8 @@
 
 
 <div class="input-group">
-    <input type="email" class="form-control" id="search1" placeholder="Search">
+    <input type="text" class="form-control" id="query" name="query" placeholder="Search">
     <span class="input-group-btn">
-        <button type="submit" class="btn btn-default">Search</button>
+        <button name="find" type="submit" class="btn btn-default">Search</button>
     </span>
 </div>

@@ -14,6 +14,8 @@
 		<!-- Styles -->
 		<!-- Bootstrap CSS -->
 		<link href="${resource(dir:'macKartTheme/css', file:'bootstrap.min.css')}" rel="stylesheet">
+		<!-- Sidebar nav -->
+		<link href="${resource(dir:'macKartTheme/css', file:'sidebar-nav.css')}" rel="stylesheet">
 		<!-- Flex slider -->
 		<link href="${resource(dir:'macKartTheme/css', file:'flexslider.css')}" rel="stylesheet">
 		<link href="${resource(dir:'macKartTheme/css', file:'owl.carousel.css')}" rel="stylesheet">
@@ -398,6 +400,8 @@
 		<script src="${resource(dir:'macKartTheme/js', file:'bootstrap.min.js')}"></script>
 		<script src="${resource(dir:'macKartTheme/js', file:'owl.carousel.min.js')}"></script>
 		<script src="${resource(dir:'macKartTheme/js', file:'filter.js')}"></script>
+		<!-- Sidebar navigation -->
+		<script src="${resource(dir:'macKartTheme/js', file:'nav.js')}"></script>
 		<!-- Flex slider -->
 		<script src="${resource(dir:'macKartTheme/js', file:'jquery.flexslider-min.js')}"></script>
 		<!-- Respond JS for IE8 -->

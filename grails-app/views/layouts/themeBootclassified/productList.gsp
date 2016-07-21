@@ -27,45 +27,45 @@
                                         <h5 class="list-title"><strong><a href="#">All Categories</a></strong></h5>
                                         <ul class=" list-unstyled">
                                             <li><a href="sub-category-sub-location.html"><span
-                                                    class="title">Electronics</span><span class="count">&nbsp;8626</span></a>
+                                                    class="title">Bldg & Industrial</span><span class="count">&nbsp;8626</span></a>
                                             </li>
-                                            <li><a href="sub-category-sub-location.html"><span class="title">Automobiles </span><span
+                                            <li><a href="sub-category-sub-location.html"><span class="title">Electronics & Technology </span><span
                                                     class="count">&nbsp;123</span></a></li>
                                             <li><a href="sub-category-sub-location.html"><span
-                                                    class="title">Property </span><span class="count">&nbsp;742</span></a></li>
+                                                    class="title">Office Supplies </span><span class="count">&nbsp;742</span></a></li>
                                             <li><a href="sub-category-sub-location.html"><span
-                                                    class="title">Services </span><span class="count">&nbsp;8525</span></a></li>
+                                                    class="title">Furniture & furnishings </span><span class="count">&nbsp;8525</span></a></li>
                                             <li><a href="sub-category-sub-location.html"><span
-                                                    class="title">For Sale </span><span class="count">&nbsp;357</span></a></li>
+                                                    class="title">Vehicles & Equipment </span><span class="count">&nbsp;357</span></a></li>
                                             <li><a href="sub-category-sub-location.html"><span
-                                                    class="title">Learning </span><span class="count">&nbsp;3576</span></a></li>
-                                            <li><a href="sub-category-sub-location.html"><span class="title">Jobs </span><span
+                                                    class="title">Office Equipment </span><span class="count">&nbsp;3576</span></a></li>
+                                            <li><a href="sub-category-sub-location.html"><span class="title">Scientific & Medical </span><span
                                                     class="count">&nbsp;453</span></a></li>
                                             <li><a href="sub-category-sub-location.html"><span
-                                                    class="title">Cars & Vehicles</span><span class="count">&nbsp;801</span></a>
+                                                    class="title">Tools & paints</span><span class="count">&nbsp;801</span></a>
                                             </li>
-                                            <li><a href="sub-category-sub-location.html"><span class="title">Other</span><span
+                                            <li><a href="sub-category-sub-location.html"><span class="title">Facilities & supplies</span><span
                                                     class="count">&nbsp;9803</span></a></li>
                                         </ul>
                                     </div>
                                     <!--/.categories-list-->
 
                                     <div class="locations-list  list-filter">
-                                        <h5 class="list-title"><strong><a href="#">Location</a></strong></h5>
+                                        <h5 class="list-title"><strong><a href="#">Services</a></strong></h5>
                                         <ul class="browse-list list-unstyled long-list">
-                                            <li><a href="sub-category-sub-location.html"> Atlanta </a></li>
-                                            <li><a href="sub-category-sub-location.html"> Wichita </a></li>
-                                            <li><a href="sub-category-sub-location.html"> Anchorage </a></li>
-                                            <li><a href="sub-category-sub-location.html"> Dallas </a></li>
-                                            <li><a href="sub-category-sub-location.html">New York </a></li>
-                                            <li><a href="sub-category-sub-location.html"> Santa Ana/Anaheim </a></li>
-                                            <li><a href="sub-category-sub-location.html"> Miami </a></li>
-                                            <li><a href="sub-category-sub-location.html"> Virginia Beach </a></li>
-                                            <li><a href="sub-category-sub-location.html"> San Diego </a></li>
-                                            <li><a href="sub-category-sub-location.html"> Boston </a></li>
-                                            <li><a href="sub-category-sub-location.html"> Houston </a></li>
-                                            <li><a href="sub-category-sub-location.html">Salt Lake City </a></li>
-                                            <li><a href="sub-category-sub-location.html"> Other Locations </a></li>
+                                            <li><a href="sub-category-sub-location.html"> About Buying Services </a></li>
+                                            <li><a href="sub-category-sub-location.html"> Energy Services </a></li>
+                                            <li><a href="sub-category-sub-location.html"> Environmental services </a></li>
+                                            <li><a href="sub-category-sub-location.html"> Facility Management Services </a></li>
+                                            <li><a href="sub-category-sub-location.html"> Furniture Services </a></li>
+                                            <li><a href="sub-category-sub-location.html"> Human Capital Services </a></li>
+                                            <li><a href="sub-category-sub-location.html"> Office Services </a></li>
+                                            <li><a href="sub-category-sub-location.html"> Professional Services </a></li>
+                                            <li><a href="sub-category-sub-location.html"> Security & Law Enforcement </a></li>
+                                            <li><a href="sub-category-sub-location.html"> Technology Services </a></li>
+                                            <li><a href="sub-category-sub-location.html"> Training Services </a></li>
+                                            <li><a href="sub-category-sub-location.html"> Transportation Services </a></li>
+                                            <li><a href="sub-category-sub-location.html"> Travel Services </a></li>
                                         </ul>
                                     </div>
                                     <!--/.locations-list-->
@@ -90,25 +90,25 @@
                                     </div>
                                     <!--/.list-filter-->
                                     <div class="locations-list  list-filter">
-                                        <h5 class="list-title"><strong><a href="#">Seller</a></strong></h5>
+                                        <h5 class="list-title"><strong><a href="#">Business/Socio-Economic types</a></strong></h5>
                                         <ul class="browse-list list-unstyled long-list">
-                                            <li><a href="sub-category-sub-location.html"><strong>All Ads</strong> <span
+                                            <li><a href="sub-category-sub-location.html"><strong>Small Business</strong> <span
                                                     class="count">228,705</span></a></li>
-                                            <li><a href="sub-category-sub-location.html">Business <span
+                                            <li><a href="sub-category-sub-location.html">SBA cert disadvantaged SB <span
                                                     class="count">28,705</span></a></li>
-                                            <li><a href="sub-category-sub-location.html">Personal <span
+                                            <li><a href="sub-category-sub-location.html">Woman owned SB <span
                                                     class="count">18,705</span></a></li>
                                         </ul>
                                     </div>
                                     <!--/.list-filter-->
                                     <div class="locations-list  list-filter">
-                                        <h5 class="list-title"><strong><a href="#">Condition</a></strong></h5>
+                                        <h5 class="list-title"><strong><a href="#">Green/Special programs</a></strong></h5>
                                         <ul class="browse-list list-unstyled long-list">
-                                            <li><a href="sub-category-sub-location.html">New <span class="count">228,705</span></a>
+                                            <li><a href="sub-category-sub-location.html">Disaster Purchasing items <span class="count">228,705</span></a>
                                             </li>
-                                            <li><a href="sub-category-sub-location.html">Used <span class="count">28,705</span></a>
+                                            <li><a href="sub-category-sub-location.html">Cooperative Purchasing Items <span class="count">28,705</span></a>
                                             </li>
-                                            <li><a href="sub-category-sub-location.html">None </a></li>
+                                            <li><a href="sub-category-sub-location.html">CPG Compliant Items </a></li>
                                         </ul>
                                     </div>
                                     <!--/.list-filter-->
@@ -123,6 +123,60 @@
                         <div class="col-sm-9 page-content col-thin-left">
                             <div class="category-list">
                                 <div class="tab-box clearfix ">
+                                    <!-- Nav tabs -->
+                                    <div class="col-lg-12  box-title no-border">
+                                        <div class="inner">
+
+                                            <h2><g:pageProperty name="page.query_string"/>
+                                                <small> <g:pageProperty name="page.num_items_found"/>
+                                                </small>
+
+
+                                            </h2>
+                                        </div>
+                                    </div>
+
+                                    <!-- Mobile Filter bar -->
+                                    <div class="mobile-filter-bar col-lg-12  ">
+                                        <ul class="list-unstyled list-inline no-margin no-padding">
+                                            <li class="filter-toggle">
+                                                <a class="">
+                                                    <i class="  icon-th-list"></i>
+                                                    Filters
+                                                </a>
+                                            </li>
+                                            <li>
+
+
+                                                <div class="dropdown">
+                                                    <a data-toggle="dropdown" class="dropdown-toggle"><i class="caret "></i>
+                                                        Short by </a>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a href="" rel="nofollow">Relevance</a></li>
+                                                        <li><a href="" rel="nofollow">Date</a></li>
+                                                        <li><a href="" rel="nofollow">Company</a></li>
+                                                    </ul>
+                                                </div>
+
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="menu-overly-mask"></div>
+                                    <!-- Mobile Filter bar End-->
+
+
+                                    <div class="tab-filter hide-xs">
+
+                                        <select class="selectpicker" data-style="btn-select" data-width="auto">
+                                            <option value="Sort by">Sort by</option>
+                                            <option value="Relevance">Relevance</option>
+                                            <option value="Title">Title</option>
+                                        </select>
+                                    </div>
+                                    <!--/.tab-filter-->
+
+
+
                                     <g:pageProperty name="page.navTabs"/>
                                 </div>
                                 <!--/.tab-box-->
@@ -130,8 +184,8 @@
                                 <div class="listing-filter hidden-xs">
                                     <div class="pull-left col-sm-6 col-xs-12">
                                         <div class="breadcrumb-list text-center-xs">
-                                            <a class="jobs-s-tag" rel="nofollow" title="Software Architect">${query} </a>
-                                            in <a rel="nofollow" class="jobs-s-tag"> Category</a></div>
+                                            <a class="jobs-s-tag" rel="nofollow" title="Software Architect"><g:pageProperty name="page.raw_query"/> </a>
+                                            in <a rel="nofollow" class="jobs-s-tag"> All Categories</a></div>
                                     </div>
                                     <div class="pull-right col-sm-6 col-xs-12 text-right text-center-xs listing-view-action">
                                         <a class="clear-all-button text-muted">Clear all</a>

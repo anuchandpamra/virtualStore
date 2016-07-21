@@ -18,7 +18,7 @@
             <h5><a href="single-item.html"><g:pageProperty name="page.product_name"/></a><span class="ico"><g:pageProperty name="page.product_number"/></span></h5>
             <div class="clearfix"></div>
             <!-- Para. Note more than 2 lines. -->
-            <p><g:pageProperty name="page.product_desc"/></p>
+            <p class="giveMeEllipsis"><g:pageProperty name="page.product_desc"/></p>
             <hr />
             <!-- Price -->
             <div class="item-price pull-left">$<g:pageProperty name="page.product_price"/></div>

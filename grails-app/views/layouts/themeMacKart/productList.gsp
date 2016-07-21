@@ -20,7 +20,7 @@
 					<nav>
 						<ul id="nav">
 						  <!-- Main menu. Use the class "has_sub" to "li" tag if it has submenu. -->
-						  <li><a href="/">Home</a></li>
+						  <li><a href="${createLink(uri: '/', absolute: 'true')}">Home</a></li>
 						  <li class="has_sub"><a href="#">Bldg & Industrial</a>
 							<!-- Submenu -->
 							<ul>

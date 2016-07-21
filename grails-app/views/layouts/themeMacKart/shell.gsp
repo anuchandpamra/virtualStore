@@ -214,7 +214,7 @@
 				<div class="row">
 					<div class="col-md-4">
 						<div class="logo">
-							<h1><a href="#"><span class="logo-icon"><asset:image src="gsa_logo_red40x40.png"/></span> ${grailsApplication.config.getProperty('gsa.app-name')}</a></h1>
+							<h1><a href="${createLink(uri:'/', absolute: 'true')}"><span class="logo-icon"><asset:image src="gsa_logo_red40x40.png"/></span> ${grailsApplication.config.getProperty('gsa.app-name')}</a></h1>
 							<!--h4>${grailsApplication.config.getProperty('gsa.app-name')}</h4 -->
 						</div>
 					</div>

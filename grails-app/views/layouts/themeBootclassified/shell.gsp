@@ -52,7 +52,7 @@
                     <button data-target=".navbar-collapse" data-toggle="collapse" class="navbar-toggle" type="button">
                         <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span
                             class="icon-bar"></span> <span class="icon-bar"></span></button>
-                    <a href="index.html" class="navbar-brand logo logo-title">
+                    <a href="${createLink(uri:'/', absolute: 'true')}" class="navbar-brand logo logo-title">
                         <span class="logo-icon"><asset:image src="gsa_logo60x60.png"/></span>
                         ${grailsApplication.config.getProperty('gsa.app-name')}
                         <!-- Original Logo will be placed here  -->
